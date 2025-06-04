@@ -1,0 +1,24 @@
+// --- محتوى PWA Manifest (سيُقدم بواسطة doGet) ---
+const PWA_MANIFEST_CONTENT = {
+  "name": "مساعد إدارة مالية",
+  "short_name": "مالياتي",
+  "description": "مساعدك الذكي لإدارة البيانات المالية.",
+  // "start_url" سيتم تعيينه ديناميكيًا في doGet إلى رابط التطبيق الرئيسي
+  "start_url": "https://script.google.com/macros/s/AKfycbxD0Z3aS-0k_9UgBU4qt0FXjqEWj0sMWxQtUz43xu4QWUPb0tvV7W0EpmD3YP9FIrKv/exec", // Placeholder for actual URL at runtime
+  "display": "standalone", // هذا هو المفتاح لمظهر التطبيق بملء الشاشة
+  "background_color": "#F4F7F6",
+  "theme_color": "#4CAF50",
+  "icons": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Google_Apps_Script_logo.svg/1200px-Google_Apps_Script_logo.svg.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Google_Apps_Script_logo.svg/1200px-Google_Apps_Script_logo.svg.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+};
+// --- نهاية محتوى PWA Manifest ---
