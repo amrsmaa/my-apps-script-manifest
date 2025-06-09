@@ -1,11 +1,9 @@
-// --- محتوى PWA Manifest (سيُقدم بواسطة doGet) ---
-const PWA_MANIFEST_CONTENT = {
+{
   "name": "مساعد إدارة مالية",
   "short_name": "مالياتي",
   "description": "مساعدك الذكي لإدارة البيانات المالية.",
-  // "start_url" سيتم تعيينه ديناميكيًا في doGet إلى رابط التطبيق الرئيسي
-  "start_url": "./", // Placeholder for actual URL at runtime
-  "display": "standalone", // هذا هو المفتاح لمظهر التطبيق بملء الشاشة
+  "start_url": "./",
+  "display": "standalone",
   "background_color": "#F4F7F6",
   "theme_color": "#4CAF50",
   "icons": [
@@ -20,5 +18,4 @@ const PWA_MANIFEST_CONTENT = {
       "type": "image/png"
     }
   ]
-};
-// --- نهاية محتوى PWA Manifest ---
+}
