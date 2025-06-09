@@ -4,7 +4,7 @@ const PWA_MANIFEST_CONTENT = {
   "short_name": "مالياتي",
   "description": "مساعدك الذكي لإدارة البيانات المالية.",
   // "start_url" سيتم تعيينه ديناميكيًا في doGet إلى رابط التطبيق الرئيسي
-  "start_url": "https://script.google.com/macros/s/AKfycbxD0Z3aS-0k_9UgBU4qt0FXjqEWj0sMWxQtUz43xu4QWUPb0tvV7W0EpmD3YP9FIrKv/exec", // Placeholder for actual URL at runtime
+  "start_url": "./", // Placeholder for actual URL at runtime
   "display": "standalone", // هذا هو المفتاح لمظهر التطبيق بملء الشاشة
   "background_color": "#F4F7F6",
   "theme_color": "#4CAF50",
